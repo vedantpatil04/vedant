@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Facebook Profile</title>
+    <style>
+        body {
+            background-color: brown;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        input, select, textarea {
+            margin-bottom: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>    
+
+    <h1>Student Profile</h1>
+    <hr>
+
+    <h3>Enter Student Details</h3>
+    <form>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <input type="email" placeholder="Email">
+
+        <h3>Select Your City</h3>
+        <select name="Cities">
+            <option value="Benglore">Benglore</option>
+            <option value="Pune">Pune</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Mumbai">Mumbai</option>
+        </select>
+
+        <h3>Enter Student Class</h3>
+        <label><input type="radio" value="1st sem" name="class1"> 1st sem</label>
+        <label><input type="radio" value="3rd sem" name="class1"> 3rd sem</label>
+        <label><input type="radio" value="5th sem" name="class1"> 5th sem</label>
+
+        <h3>Enter Student Subject</h3>
+        <label><input type="checkbox" value="Maths" name="Math"> Maths</label>
+        <label><input type="checkbox" value="Physics" name="Phy"> Physics</label>
+        <label><input type="checkbox" value="HTML" name="HTM"> HTML</label>
+        <label><input type="checkbox" value="Java" name="Ajava"> Java</label>
+        <label><input type="checkbox" value="Kannada" name="Kan"> Kannada</label>
+
+        <h5>Verify Your Details Before Submitting</h5>
+        <input type="submit" value="Submit">
+
+        <h4>Feedback</h4>
+        <textarea name="Feedback" placeholder="Enter your valuable feedback"></textarea>
+    </form>
+
+</body>
+</html>
